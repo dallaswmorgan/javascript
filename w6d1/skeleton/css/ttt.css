@@ -1,0 +1,38 @@
+li {
+  float: left;
+  font-size: 75px;
+  text-align: center;
+  vertical-align: center;
+
+  border: 5px solid black;
+  background: grey;
+  width: 90px;
+  height: 90px;
+}
+
+ul {
+  border: 2px solid black;
+  width: 300px;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+ul:after {
+  content: "";
+  display: block;
+  clear: both;
+  padding: 0;
+}
+
+li.filledX {
+  background: orange;
+}
+
+li.filledO {
+  background: blue;
+}

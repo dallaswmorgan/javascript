@@ -1,0 +1,40 @@
+ul {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  float: left;
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+  /*vertical-align: bottom;*/
+}
+
+li {
+  margin: 0 auto;
+  height: 30px;
+  /*display: inline-block;*/
+}
+
+.size-3 {
+  width: 90px;
+  background: red;
+}
+
+.size-2 {
+  width: 60px;
+  background: orange;
+}
+
+.size-1 {
+  width: 30px;
+  background: yellow;
+}
+
+.hanoi {
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.selected {
+  background: lightgreen;
+}
